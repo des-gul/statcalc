@@ -1,0 +1,31 @@
+---
+title: "statcalc"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{statcalc}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(statcalc)
+```
+
+## geomean
+
+This is a basic example which shows you how to perform geometric mean:
+
+```{r example}
+library(statcalc)
+## basic example code
+vector <- c(3, 62, 73, 920, 482, 810, 58, 382, 227, 82, 38, 517)
+geomean(vector)
+
+```
