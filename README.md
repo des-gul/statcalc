@@ -6,6 +6,8 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/des-gul/statcalc/workflows/R-CMD-check/badge.svg)](https://github.com/des-gul/statcalc/actions)
+[![Codecov test
+coverage](https://codecov.io/gh/des-gul/statcalc/branch/main/graph/badge.svg)](https://app.codecov.io/gh/des-gul/statcalc?branch=main)
 <!-- badges: end -->
 
 The goal of statcalc is to calculate simple statistical operations.
